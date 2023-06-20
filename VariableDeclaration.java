@@ -190,12 +190,12 @@ public class VariableDeclaration {
         System.out.println("isRaining");
         System.out.println("Is Sunny");
         System.out.println("Is Cold");
-        System.out.println("Has Passed Exam: " + hasPassedExam);
-        System.out.println("Is Logged In: " + isLoggedIn);
-        System.out.println("Is Available: " + isAvailable);
-        System.out.println("Is Closed: " + isClosed);
-        System.out.println("Is Started: " + isStarted);
-        System.out.println("Has Finished: " + hasFinished);
-        System.out.println("Is Correct: " + isCorrect);
+        System.out.println("Has Passed Exam: " );
+        System.out.println("Is Logged In: " );
+        System.out.println("Is Available: "  );
+        System.out.println("Is Closed: " );
+        System.out.println("Is Started: " );
+        System.out.println("Has Finished:");
+        System.out.println("Is Correct: " );
     }
 }
