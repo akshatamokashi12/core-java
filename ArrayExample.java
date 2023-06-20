@@ -28,6 +28,18 @@ public class ArrayExample {
         long[] newLongs = new long[]{1000000000L, 2000000000L, 3000000000L, 4000000000L, 5000000000L};
 		
          
+	        for (int i = 0; i < 5; i++) {
+                       salaries[i] *= 1.1;  
+               }
+		for (int i = 0; i < 5; i++) {
+			ages[i] += 5; 
+		}
+		for (int i = 0; i < 5; i++) {
+			scores[i] -= 5;
+		}
+		for (int i = 0; i < 5; i++) {
+			weights[i] += 2.5;
+		}
 		
       
         
