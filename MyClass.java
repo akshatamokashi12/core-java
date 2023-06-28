@@ -1,76 +1,74 @@
 public class MyClass {
     
-    // Method 1: Calculate the sum of two integers
+    
     public int add(int a, int b) {
         return a + b;
     }
     
-    // Method 2: Find the maximum value between two integers
+    
     public int findMax(int a, int b) {
         return Math.max(a, b);
     }
     
-    // Method 3: Print a given message
+    
     public void printMessage(String message) {
         System.out.println(message);
     }
     
-    // Method 4: Calculate the difference between two integers
+    
     public int subtract(int a, int b) {
         return a - b;
     }
     
-    // Method 5: Find the minimum value between two integers
+    
     public int findMin(int a, int b) {
         return Math.min(a, b);
     }
     
-    // Method 6: Check if a number is even
+    
     public boolean isEven(int num) {
         return num % 2 == 0;
     }
     
-    // Method 7: Calculate the product of two integers
+    
     public int multiply(int a, int b) {
         return a * b;
     }
     
-    // Method 8: Calculate the average of three integers
+    
     public double calculateAverage(int a, int b, int c) {
         return (a + b + c) / 3.0;
     }
     
-    // Method 9: Check if a number is positive
+    
     public boolean isPositive(int num) {
         return num > 0;
     }
-    
-    // Method 10: Calculate the division of two numbers
+
     public double divide(double dividend, double divisor) {
         return dividend / divisor;
     }
     
-    // Method 11: Concatenate two strings
+    
     public String concatenate(String str1, String str2) {
         return str1 + str2;
     }
     
-    // Method 12: Check if a string is empty
+    
     public boolean isEmpty(String str) {
         return str.isEmpty();
     }
     
-    // Method 13: Calculate the square of a number
+    
     public int square(int num) {
         return num * num;
     }
     
-    // Method 14: Calculate the cube of a number
     public int cube(int num) {
         return num * num * num;
     }
     
-    // Method 15: Check if a number is prime
+    
     public boolean isPrime(int num) {
         if (num <= 1) {
             return false;
@@ -83,17 +81,17 @@ public class MyClass {
         return true;
     }
     
-    // Method 16: Convert a string to uppercase
+    
     public String toUpperCase(String str) {
         return str.toUpperCase();
     }
     
-    // Method 17: Calculate the length of a string
+    
     public int calculateLength(String str) {
         return str.length();
     }
     
-    // Method 18: Check if a number is negative
+    
     public boolean isNegative(int num) {
         return num < 0;
     }
