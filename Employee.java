@@ -26,7 +26,6 @@ public class Employee {
     public static void main(String[] args) {
         // Creating an object using the default constructor
         Employee emp1 = new Employee();
-        System.out.println("Employee 1 - Default Constructor");
         System.out.println("ID: " + emp1.id);
         System.out.println("Name: " + emp1.name);
         System.out.println("Age: " + emp1.age);
@@ -35,7 +34,6 @@ public class Employee {
 
         // Creating an object using the parameterized constructor
         Employee emp2 = new Employee(101, "John Doe", 30, "IT", 50000.0);
-        System.out.println("\nEmployee 2 - Parameterized Constructor");
         System.out.println("ID: " + emp2.id);
         System.out.println("Name: " + emp2.name);
         System.out.println("Age: " + emp2.age);
