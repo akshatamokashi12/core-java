@@ -1,0 +1,254 @@
+b.Brother
+b.grandfather
+d.cannot determined
+d.brother
+b.son
+c.X+A*Y
+a.p
+b.brother in law
+b.brother
+d.T
+b.8kms
+b.south
+c.south west
+b.north east
+
+
+
+
+THEORY
+
+1.  Constructor: block of code which is executed whenever object is created.
+ ex: public class Constructor{
+       
+	   public chair{
+	    System.out.println("chair constructor");
+		}
+		public static void main(String[] args){
+		  new chair();
+		  }
+		  }
+		  
+	
+2.  types of constructor 
+     1.parameterized constructor:A constructor which has parameters.
+     2.default constructor:	A constructor which has no parameters.
+	 
+
+3.  Object:	*object is nothing but which has states and behaviours.
+             * it is also a instance of class.
+	
+
+4.   Class: * Design or blueprint that need to create a object.
+            * using class we can create a object.	
+			
+5.   Method Overloading: we have same method name but different in parameters.
+
+
+6.   Variables: *It is a Container which stores some value.
+                *variables are keeps on changing.
+				
+				
+7.  this keyword: this keyword is used to intialize the variables.
+                 
+                 ex: public class Fan{
+				          int noOfBlends;
+						  String brand;
+						  
+						  public Fan(int noOfBlends,String brand){
+						      this.noOfBlends=noOfBlends;
+							  this.brand=brand;
+							  }
+							  
+							  public static void main(String[] args){
+							     Fan fan =new Fan(3,"crompton");
+								 System.out.println(fan.brand);
+								 }
+								 }
+								 
+								 
+
+8.    String: * string is a sequence of characters.
+			  * string is a class.
+              * string is immutable.
+			  
+
+9.		5 methods of string class : 1. charAt -use to check the character.	  
+						             2.equals -use to check the equality.
+									 3.indexOf - use to check the index of string.
+									 4 contain -use to check the weather string contain that values or not.
+									 5. toLowerCase - use to covert letters to lowercase.
+									 
+									 
+10.    String is Immutable: String is immutable because it cannot change . 	
+
+
+
+
+
+PROGRAMMING:
+
+1.
+ public class Car{
+      String brand;
+	  String model;
+	  int wheels;
+	  int price;
+
+    public Car(){
+	brand="honda";
+	model="car123";
+	wheels=4;
+	price=80000;
+	
+	public car(String brand,String model,int wheels,int price){
+       this.brand=brand;
+	   this.model=model;
+	   this.wheels=wheels;
+	   this.price=price;
+	   }
+	   }
+	    
+		public static void main(String[] args){
+		  Car car = new Car("honda","car123",4,80000);
+		  System.out.println(car.brand);
+		  System.out.println(car.model);
+		  System.out.println(car.wheels);
+		  System.out.println(car.price);
+		  }
+		 }
+		 
+		 
+		 
+		 
+2.
+	    public class Fan{
+		    String price;
+			String type;
+			int speed;
+			String shape;
+			
+			public Fan(){
+			 price=2000;
+			 type="table fan";
+			 speed=5;
+			 shape="round";
+			 
+			}
+			
+			public static void rotation(){
+			System.out.println("fan rotates");
+			}
+			public static void oscillation(){
+			System.out.println("fan oscillates");
+			}
+			public static void Powersource(){
+			}
+			
+			public static void main(String[] args){
+			  Fan fan= new Fan();
+			  System.out.println(fan.price);
+			  System.out.println(fan.type);
+			  System.out.println(fan.speed);
+			  System.out.println(fan.shape);
+			  }
+			}  
+			  
+		  
+3. FISH
+
+public class Fish {
+    String species;
+    int age;
+    String color;
+
+  
+    public Fish(String species, int age, String color) {
+        this.species = species;
+        this.age = age;
+        this.color = color;
+    }
+
+    
+    public static void swim(){
+	System.out.println("fish is swimming");
+	}
+	public static void eat(){
+	System.out.println("fish is eating");
+	}
+	
+	public static void main(String[] args){
+	  Fish fish=new Fish("shark",3,"black");
+	  }
+	 } 
+	
+      	
+    CAMERA
+	
+	public class Camera {
+	
+     String brand;
+     String model;
+   
+
+    public Camera(String brand, String model) {
+        this.brand = brand;
+        this.model = model;
+    }
+
+  
+    public static void Clicks(){
+	System.out.println("camera clicks photo");
+	}
+	
+	public static void resolution(){
+	System.out.println("camera resolution is high");
+	}
+	
+	public static void main (String[] args){
+	 Camera cam1=new Camera("ABC","CAM12");
+	 }
+	}
+
+    
+    
+Headphones:
+
+public class Headphone {
+     String brand;
+     String model;
+     String color;
+   
+   
+    public Headphone(String brand, String model, String color) {
+        this.brand = brand;
+        this.model = model;
+        this.color = color;
+   
+    }
+	
+	public static void playmusic(){
+	System.out.println("listening music");
+	}
+	 public static void poweron(){
+	 System.out.println("headphones power on");
+	 }
+	 
+	public static void main (String[] args){
+	Headphone Hp1= Headphone ("Boat","pro max","black"); 
+
+  }  
+   
+}
+
+4.  REVERSEORDER
+
+public class ReverseOrder {
+
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (i >= 0; int i = numbers.length - 1;  i--) {
+            System.out.println(numbers[i]);
+        }
+    }
+}
